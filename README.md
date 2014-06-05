@@ -43,3 +43,4 @@ So to view the raw text from page 3 of your document:
 ```
 print result.p[2].t
 ```
+(It's p[2] because lists are 0-based.)
