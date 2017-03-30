@@ -105,8 +105,8 @@ class OCRPDF:
 			part = str(part)
 		
 			# Temporary filenames for ImageMagick conversion
-			pgfile = 'c:/tmp-' + part + '-' + str(i) + '.pdf'
-			pgfilejpg = 'c:/tmp-' + part + '-' + str(i) + '.jpg'
+			pgfile = 'tmp-' + part + '-' + str(i) + '.pdf'
+			pgfilejpg = 'tmp-' + part + '-' + str(i) + '.jpg'
 			
 			# Parse this page
 			output = PdfFileWriter()
